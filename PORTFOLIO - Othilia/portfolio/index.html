@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lídia Othilia | Portfólio</title>
+  <meta name="description" content="Portfólio de Lídia Othilia – estudante de tecnologia. Conheça meus projetos, habilidades e entre em contato." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="portfolio/js/Colagem tipográfica Lídia Othilia.png" type="image/svg+xml" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ================= CABEÇALHO ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="Lídia Othilia – ir para o início">
+        <svg class="sparkle" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 0c.8 6.6 4.9 10.7 12 12-7.1 1.3-11.2 5.4-12 12-.8-6.6-4.9-10.7-12-12C7.1 10.7 11.2 6.6 12 0z"/></svg>
+        <!-- EDITE AQUI: seu nome / logo -->
+        <span data-nome>Seu Nome</span>
+      </a>
+
+      <nav id="menu" class="nav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a class="pill pill--yellow" href="#contato">Fale comigo!</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-pressed="false" aria-label="Ativar modo escuro">
+          <span aria-hidden="true" id="theme-icon">🌙</span>
+        </button>
+        <button id="menu-toggle" class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+          <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ================= INÍCIO ================= -->
+    <section id="inicio" class="hero" aria-labelledby="hero-titulo">
+      <!-- Texto decorativo gigante (inspirado no design) -->
+      <div class="hero__bg-text" aria-hidden="true">
+        <span class="solid">PORTFOLIO</span>
+        <span class="outline">PORTFOLIO</span>
+        <span class="outline">PORTFOLIO</span>
+      </div>
+
+      <svg class="sparkle sparkle--a" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 0c.8 6.6 4.9 10.7 12 12-7.1 1.3-11.2 5.4-12 12-.8-6.6-4.9-10.7-12-12C7.1 10.7 11.2 6.6 12 0z"/></svg>
+      <svg class="sparkle sparkle--b" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 0c.8 6.6 4.9 10.7 12 12-7.1 1.3-11.2 5.4-12 12-.8-6.6-4.9-10.7-12-12C7.1 10.7 11.2 6.6 12 0z"/></svg>
+
+      <div class="container hero__inner">
+        <figure class="hero__photo">
+          <!-- EDITE AQUI: troque img/avatar.svg pela sua foto (ex.: img/minha-foto.jpg) e descreva no alt -->
+          <img src="img/avatar.svg" alt="Avatar ilustrado de Seu Nome" width="360" height="440" />
+        </figure>
+
+        <div class="hero__content">
+          <p class="hero__greeting"><span id="saudacao">Olá</span>! 👋</p>
+          <h1 id="hero-titulo">Eu sou <span data-nome>Seu Nome</span></h1>
+          <!-- EDITE AQUI: sua apresentação -->
+          <p class="hero__lead">
+            Estudante de tecnologia apaixonado por transformar ideias em interfaces simples, bonitas e funcionais.
+            Gosto de resolver problemas com lógica e criatividade.
+          </p>
+
+          <ul class="socials" aria-label="Minhas redes">
+            <!-- EDITE AQUI: seus links -->
+            <li><a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (abre em nova aba)</span></a></li>
+            <li><a href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (abre em nova aba)</span></a></li>
+            <li><a href="https://www.instagram.com/seu-usuario" target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (abre em nova aba)</span></a></li>
+          </ul>
+
+          <a class="btn btn--yellow" href="#projetos">Ver projetos →</a>
+        </div>
+      </div>
+
+      <a class="scroll-down" href="#sobre" aria-label="Rolar para a seção Sobre mim">Scroll<br />down</a>
+    </section>
+
+    <!-- ================= SOBRE MIM ================= -->
+    <section id="sobre" class="section about" aria-labelledby="sobre-titulo">
+      <div class="container about__grid">
+        <div class="about__text">
+          <h2 id="sobre-titulo" class="title title--xl">Olá,<br />sobre mim!</h2>
+          <!-- EDITE AQUI -->
+          <p>
+            Sou <strong data-nome>Seu Nome</strong>, estudante de [seu curso] em [sua cidade/estado].
+            Comecei na tecnologia por curiosidade e hoje estudo desenvolvimento web, lógica de programação e design de interfaces.
+          </p>
+          <p>
+            Fora do computador, curto música, filmes, carros e criar coisas com as mãos. Isso influencia o jeito que desenho meus projetos.
+          </p>
+
+          <h3 class="title title--md">Meus objetivos na tecnologia</h3>
+          <ul class="timeline">
+            <!-- EDITE AQUI: seus objetivos -->
+            <li><span class="timeline__tag">Agora</span><div><strong>Fortalecer a base</strong><span>HTML, CSS, JavaScript e Git.</span></div></li>
+            <li><span class="timeline__tag">Em breve</span><div><strong>Primeiro estágio</strong><span>Atuar em um time e aprender na prática.</span></div></li>
+            <li><span class="timeline__tag">Futuro</span><div><strong>Desenvolvedor(a) full stack</strong><span>Criar produtos acessíveis que ajudem pessoas.</span></div></li>
+          </ul>
+        </div>
+
+        <aside class="about__card" aria-label="Informações rápidas">
+          <div class="about__photo">
+            <img src="img/avatar.svg" alt="" width="280" height="340" />
+            <span class="badge badge--a">Estudante de TI</span>
+            <span class="badge badge--b">Brasil</span>
+          </div>
+          <div class="contact-card">
+            <h3>Contato</h3>
+            <ul>
+              <!-- EDITE AQUI -->
+              <li>📍 Sua cidade, UF</li>
+              <li>✉️ <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></li>
+              <li>📞 (00) 00000-0000</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Parede de stickers (decorativa, inspirada nas imagens de referência) -->
+      <div class="container">
+        <h3 class="title title--md sticker-title">Interesses &amp; curiosidades</h3>
+        <ul class="stickers" aria-label="Meus interesses">
+          <!-- EDITE AQUI: troque pelos seus interesses -->
+          <li class="sticker s1">&lt;/&gt; código</li>
+          <li class="sticker s2">♪ playlist no fone</li>
+          <li class="sticker s3">🎬 cinema</li>
+          <li class="sticker s4">404<small>sono não encontrado</small></li>
+          <li class="sticker s5">🏎️ carros</li>
+          <li class="sticker s6">Keep it weird</li>
+          <li class="sticker s7">☕ café</li>
+          <li class="sticker s8">ZZZ</li>
+          <li class="sticker s9">🎮 games</li>
+          <li class="sticker s10">hello, world!</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= HABILIDADES ================= -->
+    <section id="habilidades" class="section skills" aria-labelledby="skills-titulo">
+      <div class="skills__bg-text" aria-hidden="true"><span>SKILLS</span><span>SKILLS</span></div>
+      <div class="container">
+        <h2 id="skills-titulo" class="title title--xl title--yellow">Habilidades</h2>
+        <p class="skills__intro">O que eu já uso e o que estou aprendendo.</p>
+
+        <div class="skills__grid">
+          <article class="skill-card">
+            <h3>Sei usar</h3>
+            <ul class="chips">
+              <!-- EDITE AQUI -->
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Git &amp; GitHub</li><li>Figma</li>
+            </ul>
+            <div class="level">
+              <label for="nv-html">HTML &amp; CSS</label>
+              <progress id="nv-html" max="100" value="80">80%</progress>
+            </div>
+            <div class="level">
+              <label for="nv-js">JavaScript</label>
+              <progress id="nv-js" max="100" value="60">60%</progress>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Estou aprendendo</h3>
+            <ul class="chips">
+              <li>React</li><li>Node.js</li><li>SQL</li><li>Python</li><li>Acessibilidade (WCAG)</li>
+            </ul>
+            <div class="level">
+              <label for="nv-react">React</label>
+              <progress id="nv-react" max="100" value="30">30%</progress>
+            </div>
+            <div class="level">
+              <label for="nv-sql">SQL</label>
+              <progress id="nv-sql" max="100" value="40">40%</progress>
+            </div>
+          </article>
+
+          <article class="skill-card skill-card--soft">
+            <h3>Soft skills</h3>
+            <ul class="chips chips--black">
+              <li>#Criatividade</li><li>#Comunicação</li><li>#Organização</li><li>#Adaptabilidade</li>
+            </ul>
+            <h3 class="skill-card__sub">Idiomas</h3>
+            <dl class="langs">
+              <div><dt>Português</dt><dd>Nativo</dd></div>
+              <div><dt>Inglês</dt><dd>Intermediário</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJETOS ================= -->
+    <section id="projetos" class="section projects" aria-labelledby="projetos-titulo">
+      <div class="container">
+        <h2 id="projetos-titulo" class="title title--xl">Projetos</h2>
+        <p class="projects__intro">Alguns trabalhos que desenvolvi durante o curso.</p>
+
+        <ul class="projects__grid">
+          <!-- ===== PROJETO 1 — EDITE AQUI (copie o bloco <li> inteiro para adicionar mais) ===== -->
+          <li class="project">
+            <article>
+              <img src="img/projeto-1.svg" alt="Captura de tela do projeto Landing Page" width="640" height="400" loading="lazy" />
+              <div class="project__body">
+                <ul class="chips chips--small" aria-label="Tecnologias usadas">
+                  <li>HTML</li><li>CSS</li>
+                </ul>
+                <h3>Landing Page</h3>
+                <p>Página responsiva criada do zero com Flexbox e Grid, focada em acessibilidade.</p>
+                <div class="project__links">
+                  <a class="btn btn--dark" href="https://exemplo.com/projeto-1" target="_blank" rel="noopener noreferrer">Ver projeto<span class="sr-only"> Landing Page (abre em nova aba)</span> ↗</a>
+                  <a class="link" href="https://github.com/seu-usuario/projeto-1" target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> do projeto Landing Page (abre em nova aba)</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- ===== PROJETO 2 ===== -->
+          <li class="project">
+            <article>
+              <img src="img/projeto-2.svg" alt="Captura de tela do projeto Lista de Tarefas" width="640" height="400" loading="lazy" />
+              <div class="project__body">
+                <ul class="chips chips--small" aria-label="Tecnologias usadas">
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                </ul>
+                <h3>Lista de Tarefas</h3>
+                <p>App para adicionar, concluir e remover tarefas, com dados salvos no navegador.</p>
+                <div class="project__links">
+                  <a class="btn btn--dark" href="https://exemplo.com/projeto-2" target="_blank" rel="noopener noreferrer">Ver projeto<span class="sr-only"> Lista de Tarefas (abre em nova aba)</span> ↗</a>
+                  <a class="link" href="https://github.com/seu-usuario/projeto-2" target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> do projeto Lista de Tarefas (abre em nova aba)</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- ===== PROJETO 3 ===== -->
+          <li class="project">
+            <article>
+              <img src="img/projeto-3.svg" alt="Captura de tela do projeto Site de Receitas" width="640" height="400" loading="lazy" />
+              <div class="project__body">
+                <ul class="chips chips--small" aria-label="Tecnologias usadas">
+                  <li>HTML</li><li>CSS</li><li>JS</li>
+                </ul>
+                <h3>Site de Receitas</h3>
+                <p>Catálogo com busca e filtros, layout em Grid e modo claro/escuro.</p>
+                <div class="project__links">
+                  <a class="btn btn--dark" href="https://exemplo.com/projeto-3" target="_blank" rel="noopener noreferrer">Ver projeto<span class="sr-only"> Site de Receitas (abre em nova aba)</span> ↗</a>
+                  <a class="link" href="https://github.com/seu-usuario/projeto-3" target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> do projeto Site de Receitas (abre em nova aba)</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+    <section id="contato" class="section contact" aria-labelledby="contato-titulo">
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <h2 id="contato-titulo" class="title title--xl">Vamos<br />conversar?</h2>
+          <p>Tem uma ideia, vaga ou só quer dizer oi? Preencha o formulário e me escreva.</p>
+        </div>
+
+        <form id="contact-form" class="form" novalidate aria-describedby="privacidade">
+          <div class="field">
+            <label for="nome">Nome <span aria-hidden="true">*</span></label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required aria-describedby="erro-nome" />
+            <p class="error" id="erro-nome" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="erro-email" />
+            <p class="error" id="erro-email" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="mensagem">Mensagem <span aria-hidden="true">*</span></label>
+            <textarea id="mensagem" name="mensagem" rows="5" required aria-describedby="erro-mensagem"></textarea>
+            <p class="error" id="erro-mensagem" role="alert"></p>
+          </div>
+
+          <div class="field field--check">
+            <input id="consentimento" name="consentimento" type="checkbox" required aria-describedby="erro-consentimento" />
+            <label for="consentimento">
+              Concordo em compartilhar meus dados (nome e e-mail) apenas para receber resposta a esta mensagem. <span aria-hidden="true">*</span>
+            </label>
+            <p class="error" id="erro-consentimento" role="alert"></p>
+          </div>
+
+          <p id="privacidade" class="form__note">
+            🔒 Seus dados não são armazenados neste site. Ao enviar, seu aplicativo de e-mail será aberto com a mensagem pronta.
+          </p>
+
+          <button class="btn btn--dark" type="submit">Enviar mensagem</button>
+          <p id="form-status" class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="ano">2025</span> <span data-nome>Seu Nome</span>. Todos os direitos reservados.</p>
+      <a class="to-top" href="#inicio">↑ Voltar ao topo</a>
+    </div>
+  </footer>
+</body>
+</html>
