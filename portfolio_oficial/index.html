@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lídia Othilia | Portfólio</title>
+  <meta name="description" content="Portfólio de Lídia Othilia – estudante de tecnologia. Conheça meus projetos, habilidades e entre em contato." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio">Lídia Othilia</a>
+
+      <nav id="menu" class="nav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a class="btn btn--small" href="#contato">Fale comigo</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-pressed="false" aria-label="Ativar modo escuro">
+          <span aria-hidden="true" id="theme-icon">🌙</span>
+        </button>
+        <button id="menu-toggle" class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+          <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section id="inicio" class="hero" aria-labelledby="hero-titulo">
+      <div class="container hero__inner">
+        <p class="hero__greeting"><span id="saudacao">Olá</span>, eu sou</p>
+
+        <h1 id="hero-titulo">
+          <img src="img/lidia-othilia.webp" alt="Lídia Othilia" width="1100" height="620" />
+        </h1>
+
+        <p class="hero__lead">
+          Estudante de TI, e você está no meu portfólio.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn" href="#projetos">Ver projetos</a>
+          <a class="btn btn--outline" href="#contato">Fale comigo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section" aria-labelledby="sobre-titulo">
+      <div class="container about">
+        <div>
+          <h2 id="sobre-titulo" class="title">Sobre mim</h2>
+          <!-- EDITE AQUI: seu curso e sua cidade -->
+          <p>
+            Sou <strong>Lídia Othilia</strong>,  estudante do curso técnico de TI em Natal/RN. Meu interesse por tecnologia começou em 2022, quando entrei na robótica, e desde então venho aprendendo sobre programação e desenvolvimento de projetos.
+          </p>
+          <p>
+            Fora do computador, amo músicas e filmes, principalmente trilhas sonoras. Meu herói favorito é o Homem-Aranha, e gosto de aprender coisas novas e explorar minha criatividade.
+          </p>
+
+          <h3>Meus objetivos</h3>
+          <ul class="goals">
+            <li><span class="tag">Agora</span><div><strong>Fortalecer a base</strong> HTML, CSS, JavaScript, Python e etc.</div></li>
+            <li><span class="tag">Em breve</span><div><strong>Primeiro estágio</strong> Ampliar minha habilidades.</div></li>
+            <li><span class="tag">Futuro</span><div><strong>Desenvolvedora full stack</strong> Criar produtos acessíveis que ajudem pessoas.</div></li>
+          </ul>
+        </div>
+
+        <aside class="card" aria-label="Informações de contato">
+          <h3>Contato</h3>
+          <ul>
+           <aside class="contact-card">
+  <img
+    src="img.png"
+    alt="Foto profissional de Lídia Othilia"
+    class="profile-photo"
+  >
+            <li>📍 Natal/RN</li>
+            <li>✉️ <a href="mailto:lidiaothilia5@gmail.com">lidiaothilia5@gmail.com</a></li>
+          </ul>
+          <ul class="socials" aria-label="Minhas redes">
+            <!-- EDITE AQUI: seus links -->
+            <li><a href="https://github.com/5lidia" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (abre em nova aba)</span></a></li>
+            <li><a href="https://drive.google.com/file/d/1DQb-hExSzQY0NLKMMejIMMa2LzOPTn91/view?usp=sharing" target="_blank" rel="noopener noreferrer">Curriculo<span class="sr-only"> (abre em nova aba)</span></a></li>
+            <li><a href="https://www.instagram.com/lidiaothilia_/" target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (abre em nova aba)</span></a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= HABILIDADES ================= -->
+    <section id="habilidades" class="section section--green" aria-labelledby="skills-titulo">
+      <div class="container">
+        <h2 id="skills-titulo" class="title">Habilidades</h2>
+        <p class="intro">O que eu já uso e o que estou aprendendo.</p>
+
+        <div class="grid grid--skills">
+          <article class="panel">
+            <h3>Sei usar</h3>
+            <!-- EDITE AQUI -->
+            <ul class="chips">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Git &amp; GitHub</li><li>Figma</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Estou aprendendo</h3>
+            <ul class="chips">
+              <li>SQL</li><li>Python</li><li>Flask</li><li>Banco de dados</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Pessoais</h3>
+            <ul class="chips">
+              <li>Criatividade</li><li>Comunicação</li><li>Organização</li><li>Adaptabilidade</li>
+            </ul>
+            <p class="langs"><strong>Idiomas:</strong> Português (nativo) · Inglês (básico)</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  
+    <section id="projetos" class="section" aria-labelledby="projetos-titulo">
+      <div class="container">
+        <h2 id="projetos-titulo" class="title">Projetos</h2>
+        <p class="intro">Alguns trabalhos que desenvolvi durante o curso.</p>
+
+        <ul class="grid grid--projects">
+          <!-- EDITE AQUI: copie um bloco <li> inteiro para adicionar mais projetos -->
+          <li class="project">
+            <img src="img/projeto-1.svg" alt="Captura de tela do projeto Landing Page" width="640" height="400" loading="lazy" />
+            <div class="project__body">
+              <ul class="chips chips--small" aria-label="Tecnologias usadas"><li>HTML</li><li>CSS</li></ul>
+              <h3>Projeto UP</h3>
+              <p>Proposta de ajudar as pessoas a conhecerem seus interesses e explorarem possibilidades de carreira.</p>
+              <div class="project__links">
+                <a class="btn btn--small" href="https://exemplo.com/projeto-1" target="_blank" rel="noopener noreferrer">Ver projeto<span class="sr-only"> UP (abre em nova aba)</span></a>
+                <a class="link" href="https://github.com/5lidia/Projeto-UP" target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> do projeto UP (abre em nova aba)</span></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="project">
+            <img src="img/projeto-2.svg" alt="Captura de tela do projeto Lista de Tarefas" width="640" height="400" loading="lazy" />
+            <div class="project__body">
+              <ul class="chips chips--small" aria-label="Tecnologias usadas"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li> <li>Flask</li></ul>
+              <h3>Empreende Tec</h3>
+              <p>Plataforma para divulgar produtos e serviços de estudantes dentro da escola.</p>
+              <div class="project__links">
+                <a class="btn btn--small" href="https://exemplo.com/projeto-2" target="_blank" rel="noopener noreferrer">Ver projeto<span class="sr-only"> Lista de Tarefas (abre em nova aba)</span></a>
+                <a class="link" href="https://github.com/5lidia/EmpreendeTec" target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> do projeto Lista de Tarefas (abre em nova aba)</span></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="project">
+            <img src="img/projeto-3.svg" alt="Captura de tela do projeto Site de Receitas" width="640" height="400" loading="lazy" />
+            <div class="project__body">
+              <ul class="chips chips--small" aria-label="Tecnologias usadas"><li>...</li></ul>
+              <h3>Ciclo Seguro</h3>
+              <p>Projeto para a Olimpíada Brasileira de Geoinformação relacionado ao mapeamento de estratégias de segurança para ciclistas.</p>
+              <div class="project__links">
+                <a class="btn btn--small" href="https://exemplo.com/projeto-3" target="_blank" rel="noopener noreferrer">Ver projeto<span class="sr-only"> Site de Receitas (abre em nova aba)</span></a>
+                <a class="link" href="https://github.com/seu-usuario/projeto-3" target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> do projeto Site de Receitas (abre em nova aba)</span></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+<section id="contato" class="section section--yellow" aria-labelledby="contato-titulo">
+  <div class="container contact">
+    <div>
+      <h2 id="contato-titulo" class="title">Vamos conversar?</h2>
+      <p>
+        Tem uma ideia, oportunidade ou só quer dizer oi?
+        Escolha uma das opções abaixo e entre em contato comigo!
+      </p>
+    </div>
+
+    <div class="contact__buttons" aria-label="Opções de contato">
+
+      <a
+        href="mailto:seuemail@email.com"
+        class="btn"
+        aria-label="Enviar e-mail para Lídia"
+      >
+        ✉️ E-mail
+      </a>
+
+      <a
+        href="https://wa.me/55SEUNUMERO"
+        class="btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Conversar pelo WhatsApp"
+      >
+        💬 WhatsApp
+      </a>
+
+      <a
+        href="https://github.com/SEUUSUARIO"
+        class="btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Acessar meu GitHub"
+      >
+        💻 GitHub
+      </a>
+
+    </div>
+  </div>
+</section>
+</main>
+
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="ano">2026</span> Lídia Othilia. Todos os direitos reservados.</p>
+      <a href="#inicio">↑ Voltar ao topo</a>
+    </div>
+  </footer>
+</body>
+</html>
